@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.categories {
+  max-width: 400px;
+  margin: 0px auto;
+  color: #000;
+}
+.categories .category {
+  background: #CCC;
+  display: inline-block;
+  border-radius: 10px;
+  line-height: 30px;
+  padding: 0px 10px 0px 10px;
+  margin: 0px 5px 5px 5px;
+}
+.category.dierenmishandeling {
+  background: lightcoral;
+}
+.category.asociaal {
+  background: lightblue;
+}
+.category.grensoverschrijdend {
+  background: lightsalmon;
+}
+.category.mishandeling {
+  background: lightseagreen;
+}
+.category.financieel {
+  background: lightgoldenrodyellow;
+}
+.category.overig {
+  background: lightslategrey;
+}
+/* .categories */
