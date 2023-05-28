@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 from os import path
 
-RESULTS_DESTINATION = 'vindi-watch-gui/src/results'
+RESULTS_DESTINATION = '.'
 
 def categorize_entry(text: str):
     categories = [
