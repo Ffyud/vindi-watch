@@ -44,7 +44,7 @@ def search_rss_feed(rss_urls: list):
         print(url)
         feed = feedparser.parse(url)
         for entry in feed.entries:
-            if "vindicat" in entry.description:
+            if "de" in entry.description:
                 category = categorize_entry(str(entry.title) + " " + str(entry.description))
   
                 result = { 
