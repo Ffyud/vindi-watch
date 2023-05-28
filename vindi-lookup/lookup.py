@@ -50,7 +50,7 @@ def search_rss_feed(rss_urls: list):
                 result = { 
                     "title": entry.title,
                     "link": entry.link,
-                    "date": "derp",
+                    "date": str(datetime.now()),
                     "category": category
                 }
 
