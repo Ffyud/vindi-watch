@@ -71,13 +71,10 @@ def dump_results_as_json(result: dict, destination: str):
         json.dump(result, fp)
 
 def collect_news_items():
-    rss_urls = ['https://ukrant.nl/rss']
-    # rss_urls = ['https://ukrant.nl/rss',
-    #             'https://rtvnoord.nl/rss/',
-    #             'https://www.gic.nl/startpagina/rss',
-    #             'https://www.sikkom.nl/api/feed/rss',
-    #             'https://feeds.nos.nl/nosnieuwsalgemeen',
-    #             'https://www.oogtv.nl/rss']
-
+    rss_urls = ['https://ukrant.nl/rss',
+                'https://rtvnoord.nl/rss/',
+                'https://www.gic.nl/startpagina/rss',
+                'https://www.sikkom.nl/api/feed/rss',
+                'https://feeds.nos.nl/nosnieuwsalgemeen',
+                'https://www.oogtv.nl/rss']
     results = search_rss_feed(rss_urls)
-    # print(results)
