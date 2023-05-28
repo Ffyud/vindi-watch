@@ -67,8 +67,10 @@ def dump_results_as_json(result: dict, destination: str):
     if path.isfile(full_path) is False:
       raise Exception(full_path + " niet gevonden")
     
+    json_object = json.dumps(result, indent=4)
+
     with open(full_path, 'w') as fp:
-        json.dump(result, fp)
+        fp.write(json_object)
 
 def collect_news_items():
     rss_urls = ['https://ukrant.nl/rss',
