@@ -7,8 +7,8 @@ RESULTS_DESTINATION = '.'
 
 def categorize_entry(text: str):
     categories = [
-        ("geweld", ["geweld", "vechtpartij", "gevecht", "mishandeling"]),
-        ("asociaal", ["gooien", "lastig vallen", "schreeuwen", "overlast"]),
+        ("geweld", ["geweld", "vechtpartij", "gevecht", "mishandeling", "verwond", "geslagen", "mishandeld"]),
+        ("asociaal", ["gooien", "lastig vallen", "schreeuwen", "overlast", "geluidsoverlast"]),
         ("dierenmishandeling", ["dier", "dieren"])
     ]
 
