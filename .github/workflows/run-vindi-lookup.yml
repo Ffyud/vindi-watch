@@ -2,7 +2,7 @@ name: run-vindi-lookup
 
 on:
   schedule:
-    - cron: '0 18 * * *'
+    - cron: '0 10,18 * * *'
   push:
     branches:
       - main
